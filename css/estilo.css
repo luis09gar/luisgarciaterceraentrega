@@ -24,9 +24,17 @@ body {
   font-family: Arial, sans-serif;
   margin: 0;
   padding: 0;
+  background-image: url(../img/fondogato.jpg);
   background-repeat: no-repeat;
+  background-position: center;
   background-size: cover;
-  background-color: #d6eceb;
+  width: 100%;
+  height: 100%;
+}
+body p {
+  font-size: 1.1rem;
+  margin-bottom: 1.5rem;
+  color: #070606;
 }
 body .tituloPrincipal {
   text-align: center;
@@ -60,8 +68,7 @@ main .contenedorUno {
   margin-top: 50px;
 }
 
-/*producto
-*/
+/*producto*/
 div .tituloProducto {
   background-color: white;
   color: black;
@@ -73,7 +80,7 @@ div .tituloProducto {
 }
 
 div .colorBtn {
-  background-color: #71c3cc;
+  background-color: rgba(113, 195, 204, 0.5254901961);
   color: black;
 }
 div .hijoRow {
@@ -111,13 +118,8 @@ div .imgProducto img {
   border-radius: 30px;
   box-shadow: 2px 2px 4px rgba(5, 5, 5, 0.9);
 }
-.contenedorNosotros p {
-  font-size: 1.1rem;
-  margin-bottom: 1.5rem;
-  color: #555;
-}
 .contenedorNosotros .listaNosotros {
-  color: #555;
+  color: #252323;
 }
 .contenedorNosotros strong {
   color: #141313;
@@ -126,10 +128,36 @@ div .imgProducto img {
 /*registro*/
 button .btnRegistro {
   text-decoration: none;
-  color: #0453F1;
+  color: #4ba1e7;
 }
 button div .bordeBtn {
   border: 2px solid black;
+}
+
+.padreRegistro {
+  display: flex;
+  background-color: rgba(240, 248, 255, 0.349);
+}
+.padreRegistro .hijoRegistro {
+  flex-direction: column;
+  align-content: center;
+  margin: auto;
+}
+.padreRegistro .lista {
+  list-style-type: none;
+}
+.padreRegistro .btnRegistro {
+  text-decoration: none;
+  color: rgb(84, 57, 236);
+}
+.padreRegistro .tituloContenedor {
+  text-align: center;
+  text-transform: uppercase;
+}
+.padreRegistro .tituloContenedor2 {
+  text-align: center;
+  text-transform: uppercase;
+  margin-bottom: 45px;
 }
 
 /*# sourceMappingURL=estilo.css.map */
